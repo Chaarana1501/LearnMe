@@ -1,0 +1,10 @@
+package apiMain;
+
+public class LearnController {
+	
+	@RequestMapping("/")
+    public String index() {
+        return "Greetings from Spring Boot!";
+    }
+
+}
