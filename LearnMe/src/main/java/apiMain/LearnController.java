@@ -8,7 +8,7 @@ public class LearnController {
 	
 	@RequestMapping("/")
     public String index() {
-        return "Greetings Learn me";
+        return "Greetings Learn me" ;
     }
 
 }
